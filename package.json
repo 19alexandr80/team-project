@@ -1,8 +1,9 @@
 {
   "name": "team-project",
   "version": "2.0.0",
-  "description": "Alexandr",
+  "description": "team-project",
   "main": "index.js",
+  "homepage": "https://19alexandr80.github.io/team-project",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --mode development --open",
@@ -21,7 +22,6 @@
   "bugs": {
     "url": "https://github.com/19alexandr80/team-project/issues"
   },
-  "homepage": "https://github.com/19alexandr80/team-project#readme",
   "devDependencies": {
     "clean-webpack-plugin": "^4.0.0",
     "html-webpack-plugin": "^5.5.1",
