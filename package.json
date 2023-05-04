@@ -1,0 +1,32 @@
+{
+  "name": "team-project",
+  "version": "2.0.0",
+  "description": "Alexandr",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/19alexandr80/team-project.git"
+  },
+  "keywords": [
+    "js",
+    "firebase"
+  ],
+  "author": "Alexandr <usanka1980@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/19alexandr80/team-project/issues"
+  },
+  "homepage": "https://github.com/19alexandr80/team-project#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "html-webpack-plugin": "^5.5.1",
+    "webpack": "^5.82.0",
+    "webpack-cli": "^5.0.2",
+    "webpack-dev-server": "^4.13.3"
+  }
+}
