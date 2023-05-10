@@ -8,10 +8,10 @@ const request = {
 };
 // dataFirebase.postRequest(request, "test@test");
 
-async function getData(test) {
-  const data = await dataFirebase.getRequest(test);
-  console.log(data);
-}
+// async function getData(test) {
+//   const data = await dataFirebase.getRequest(test);
+//   console.log(data);
+// }
 // getData("test@test");
 
 // ========================================================================
