@@ -154,3 +154,8 @@ function rekyrs(i, j) {
   }
 }
 // =========================================================================
+const but = document.querySelector(".button-autt");
+but.addEventListener("click", () => {
+  console.log("google");
+  dataFirebase.getGoogl();
+});
